@@ -1,3 +1,3 @@
 # Collaborate
 
-with Friend
+with Friend!
