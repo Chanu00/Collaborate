@@ -22,7 +22,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.time.LocalDateTime;
 import java.util.List;
 
+//dslkfjalsdjf;lsajdfl;sajdf;lsajdf;ljasdlfk
 // chchchchchchchanwoo`
+@Column
 @Tag(name = "Controller")
 @Controller
 public class BoardController {
