@@ -1,2 +1,3 @@
-# Collaborate
-with Friend
+# README 확인 용 스크립트 삭제
+
+> README 확인 용 스크립트를 삭제하였습니다.
