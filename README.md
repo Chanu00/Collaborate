@@ -7,44 +7,85 @@
 # 프로젝트 구조
 
 ```
-├── gradle
-│   └── wrapper
-│   ├── gradle-wrapper.jar
-│   └── gradle-wrapper.properties
-├── gradlew
-├── gradlew.bat
-├── settings.gradle
-└── src
-├── main
-│   ├── java
-│   │   └── com
-│   │   └── board
-│   │   └── crudboard
-│   │   ├── CrudBoardApplication.java
-│   │   ├── controller
-│   │   │   └── BoardController.java
-│   │   ├── entity
-│   │   │   └── Board.java
-│   │   ├── repository
-│   │   │   └── BoardRepository.java
-│   │   ├── service
-│   │   │   └── BoardService.java
-│   │   └── swagger
-│   │   └── OpenApiConfig.java
-│   └── resources
-│   ├── application.properties
-│   ├── application.yaml
-│   └── templates
-│   ├── boardlist.html
-│   ├── boardmodify.html
-│   ├── boardview.html
-│   └── boardwrite.html
-└── test
-└── java
-└── com
-└── board
-└── crudboard
-└── CrudBoardApplicationTests.java
+┣ 📂.gradle
+ ┃ ┣ 📂8.1.1
+ ┃ ┃ ┣ 📂checksums
+ ┃ ┃ ┃ ┗ 📜checksums.lock
+ ┃ ┃ ┣ 📂dependencies-accessors
+ ┃ ┃ ┃ ┣ 📜dependencies-accessors.lock
+ ┃ ┃ ┃ ┗ 📜gc.properties
+ ┃ ┃ ┣ 📂executionHistory
+ ┃ ┃ ┃ ┗ 📜executionHistory.lock
+ ┃ ┃ ┣ 📂fileChanges
+ ┃ ┃ ┃ ┗ 📜last-build.bin
+ ┃ ┃ ┣ 📂fileHashes
+ ┃ ┃ ┃ ┗ 📜fileHashes.lock
+ ┃ ┃ ┣ 📂vcsMetadata
+ ┃ ┃ ┗ 📜gc.properties
+ ┃ ┣ 📂buildOutputCleanup
+ ┃ ┃ ┣ 📜buildOutputCleanup.lock
+ ┃ ┃ ┗ 📜cache.properties
+ ┃ ┗ 📂vcs-1
+ ┃ ┃ ┗ 📜gc.properties
+ ┣ 📂.idea
+ ┃ ┣ 📜.gitignore
+ ┃ ┣ 📜.name
+ ┃ ┣ 📜compiler.xml
+ ┃ ┣ 📜gradle.xml
+ ┃ ┣ 📜jarRepositories.xml
+ ┃ ┣ 📜misc.xml
+ ┃ ┣ 📜vcs.xml
+ ┃ ┗ 📜workspace.xml
+ ┣ 📂GitREADME양식
+ ┃ ┗ 📜README.md
+ ┣ 📂gradle
+ ┃ ┗ 📂wrapper
+ ┃ ┃ ┣ 📜gradle-wrapper.jar
+ ┃ ┃ ┗ 📜gradle-wrapper.properties
+ ┣ 📂src
+ ┃ ┣ 📂main
+ ┃ ┃ ┣ 📂java
+ ┃ ┃ ┃ ┣ 📂com
+ ┃ ┃ ┃ ┃ ┣ 📂board
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂crudboard
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜BoardController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂entity
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜Board.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜BoardRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜BoardService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂swagger
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜OpenApiConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜.DS_Store
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜CrudBoardApplication.java
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜.DS_Store
+ ┃ ┃ ┃ ┃ ┗ 📜.DS_Store
+ ┃ ┃ ┃ ┗ 📜.DS_Store
+ ┃ ┃ ┣ 📂resources
+ ┃ ┃ ┃ ┣ 📂templates
+ ┃ ┃ ┃ ┃ ┣ 📜boardlist.html
+ ┃ ┃ ┃ ┃ ┣ 📜boardmodify.html
+ ┃ ┃ ┃ ┃ ┣ 📜boardview.html
+ ┃ ┃ ┃ ┃ ┗ 📜boardwrite.html
+ ┃ ┃ ┃ ┣ 📜application.properties
+ ┃ ┃ ┃ ┗ 📜application.yaml
+ ┃ ┃ ┗ 📜.DS_Store
+ ┃ ┣ 📂test
+ ┃ ┃ ┗ 📂java
+ ┃ ┃ ┃ ┗ 📂com
+ ┃ ┃ ┃ ┃ ┗ 📂board
+ ┃ ┃ ┃ ┃ ┃ ┗ 📂crudboard
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜CrudBoardApplicationTests.java
+ ┃ ┗ 📜.DS_Store
+ ┣ 📜.DS_Store
+ ┣ 📜.gitignore
+ ┣ 📜README.md
+ ┣ 📜build.gradle
+ ┣ 📜gradlew
+ ┣ 📜gradlew.bat
+ ┗ 📜settings.gradle
 ```
 
 # 📚 목차
