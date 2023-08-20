@@ -6,6 +6,7 @@
 
 # 프로젝트 구조
 
+```
 ├── gradle
 │   └── wrapper
 │   ├── gradle-wrapper.jar
@@ -44,6 +45,7 @@
 └── board
 └── crudboard
 └── CrudBoardApplicationTests.java
+```
 
 # 📚 목차
 
